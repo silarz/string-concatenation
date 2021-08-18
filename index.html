@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Strings 1 - MDN tests</title>
+    <style>
+        body{
+            background-color: teal;
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        }
+        .title{
+            text-align: center;
+        }
+
+        section{
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            color: whitesmoke;
+            padding: 20px;
+            border-bottom: 1px solid turquoise;
+        }
+        h3{
+            color: whitesmoke;
+            text-align: center;
+        }
+        p {
+          color: white;
+          margin: 0.5em 0;
+          font-size: 50px;
+        }
+  
+        * {
+          box-sizing: border-box;
+        }
+      </style>
+</head>
+<body>
+    <h1 class="title">JS Strings - Task 1: Concatenation</h1>
+    <h3>The quote you want, on a teal background.</h3>
+    
+
+    <section class="preview">
+
+
+
+    </section>
+
+    
+
+    
+    
+</body>
+<script>
+
+    // Add your code here
+
+    let quoteStart = prompt("Digita la prima parte della frase:");
+    let quoteEnd = prompt("Digita la seconda parte della frase:");
+    let finalQuote = quoteStart + " " + quoteEnd;
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+    let para1 = document.createElement('p');
+    para1.textContent = finalQuote;
+
+    section.appendChild(para1);
+        
+
+</script>
+</html>
